@@ -1,0 +1,43 @@
+.img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.content {
+  text-align: center;
+}
+.cls {
+  background-color: blueviolet;
+  color: black;
+}
+button {
+  border-color: aliceblue;
+  color: rgb(1, 15, 15);
+  background-color: rgb(157, 226, 226);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.button {
+  display: flex;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+}
+.productform {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.example-full-width {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.btnnn {
+  margin-left: 600px;
+}

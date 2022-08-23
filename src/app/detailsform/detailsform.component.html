@@ -1,0 +1,65 @@
+<div class="col-12 md:col-6 lg:col-3">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Brand</mat-label>
+    <input
+      type="text"
+      matInput
+      placeholder="Brand"
+      formControlName="brand"
+    />
+    <mat-error *ngIf="productForm.get('brand').hasError('required')"
+      >Brand is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+</div>
+
+<div class="col-12 md:col-6 lg:col-3">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Price</mat-label>
+    <input
+      type="number"
+      matInput
+      placeholder="Price"
+      formControlName="price"
+    />
+    <mat-error *ngIf="productForm.get('price').hasError('required')"
+      >Price is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+</div>
+<div class="col-12 md:col-6 lg:col-3">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>category</mat-label>
+    <input
+      type="text"
+      matInput
+      placeholder="category"
+      formControlName="category"
+    />
+    <mat-error *ngIf="productForm.get('category').hasError('required')"
+      >Price is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+</div>
+<div class="col-12 md:col-6 lg:col-3">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>rating</mat-label>
+    <input
+      type="number"
+      matInput
+      placeholder="rating"
+      formControlName="rating"
+    />
+    <mat-error *ngIf="productForm.get('rating').hasError('required')"
+      >Rating is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+</div>
+</div>
+<div class="btnnn">
+<button mat-raised-button type="submit" [disabled]="productForm.invalid">
+  SUBMIT
+</button>
+</div>
+</form>
+</div>
